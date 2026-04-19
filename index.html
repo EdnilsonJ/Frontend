@@ -32,6 +32,11 @@
             font-size: 24px;
             color: #0d6efd;
         }
+        .icon-doctor{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
@@ -120,7 +125,77 @@
         </div>
     </div>
 </section>
+<section class="py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-3 text-block">Horarios Disponibles Hoy</h2>
+        <p class="text-muted mb-5">Consulta la disponibilidad de nuestros médicos. Inicia sesión para reservar tu cita.</p>
 
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-3" style="border-radius: 15px;">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="img/dr carlos mendoza.jpg" class="rounded-circle me-3 icon-doctor" alt="Dr. Carlos">
+                        <div class="text-start">
+                            <h6 class="fw-bold mb-0 text-block">Dr. Carlos Mendoza</h6>
+                            <small class="text-muted">Medicina General</small>
+                        </div>
+                    </div>
+                    
+                    <p class="text-start small text-muted mb-2"><i class="bi bi-clock me-1"></i> Horarios disponibles:</p>
+                    
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">09:00</span>
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">11:00</span>
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">14:00</span>
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">16:00</span>
+                    </div>
+                    
+                    <button class="btn btn-primary w-100 py-2 btn-danger">Reservar con Dr.</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-3" style="border-radius: 15px;">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="img/dr ana lopez.jpg" class="rounded-circle me-3 icon-doctor" alt="Dra. Ana">
+                        <div class="text-start">
+                            <h6 class="fw-bold mb-0 text-block">Dra. Ana López</h6>
+                            <small class="text-muted">Cardiología</small>
+                        </div>
+                    </div>
+                    <p class="text-start small text-muted mb-2"><i class="bi bi-clock me-1"></i> Horarios disponibles:</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">10:00</span>
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">12:00</span>
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">15:00</span>
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">17:00</span>
+                    </div>
+                    <button class="btn btn-primary w-100 py-2 btn-danger">Reservar con Dra.</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm p-3" style="border-radius: 15px;">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="img/dr luis garcia.jpg" class="rounded-circle me-3 icon-doctor" alt="Dr. Luis">
+                        <div class="text-start">
+                            <h6 class="fw-bold mb-0 text-block">Dr. Luis García</h6>
+                            <small class="text-muted">Pediatría</small>
+                        </div>
+                    </div>
+                    <p class="text-start small text-muted mb-2"><i class="bi bi-clock me-1"></i> Horarios disponibles:</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">09:00</span>
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">10:00</span>
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">11:00</span>
+                        <span class="badge border border-danger text-danger bg-light px-3 py-2">15:00</span>
+                    </div>
+                    <button class="btn btn-primary w-100 py-2 btn-danger">Reservar con Dr.</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <footer class="py-5 border-top bg-white">
     <div class="container">
         <div class="row text-center text-md-start">
