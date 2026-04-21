@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,317 +14,347 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="img/logo.png" alt="Logo Clinica Limatambo" width="180" height="60" class="me-2">
-        </a>
-        </Span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto align-items-center">
-                <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Especialidades</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Médicos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                <li class="nav-item ms-lg-3">
-                    <a class="btn btn-danger px-4" href="#" data-bs-toggle="modal" data-bs-target="#modalRegistro">Reservar Cita</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.png" alt="Logo Clinica Limatambo" width="180" height="60" class="me-2">
+            </a>
+            </Span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Especialidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Médicos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-danger px-4" href="#" data-bs-toggle="modal"
+                            data-bs-target="#modalRegistro">Reservar Cita</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<header class="hero-section text-center">
-    <div class="container">
-        <h1 class="display-3 fw-bold">Tu salud, nuestra prioridad</h1>
-        <p class="lead mb-5">Atención médica de calidad con los mejores especialistas. Reserva tu cita de forma rápida y segura.</p>
-        <div class="d-flex justify-content-center gap-3">
-            <a href="#" class="btn btn-outline-light btn-lg px-4" data-bs-toggle="modal" data-bs-target="#modalRegistro"><i class="bi bi-calendar-check me-2"></i>Reservar Cita Online</a>
-            <a href="#" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-telephone me-2"></i>Llamar Ahora</a>
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Tu salud, nuestra prioridad</h1>
+            <p class="lead mb-5">Atención médica de calidad con los mejores especialistas. Reserva tu cita de forma
+                rápida y segura.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="btn btn-outline-light btn-lg px-4" data-bs-toggle="modal"
+                    data-bs-target="#modalRegistro"><i class="bi bi-calendar-check me-2"></i>Reservar Cita Online</a>
+                <a href="#" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-telephone me-2"></i>Llamar
+                    Ahora</a>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<section class="py-5 bg-light">
-    <div class="container text-center">
-        <h2 class="fw-bold">Nuestras Especialidades</h2>
-        <p class="text-muted mb-5">Contamos con profesionales altamente calificados en diversas áreas médicas</p>
-        
-        <div class="row g-4">
-            <div class="col-md-3">
-                <div class="card h-100 border-0 shadow-sm card-specialty p-3">
-                    <div class="icon-circle mb-3 mx-auto"><i class="fa-solid fa-stethoscope fa-xl text-danger"></i></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Medicina General</h5>
-                        <p class="card-text text-muted small">Atención integral para toda la familia con médicos experimentados.</p>
-                        <p class="text-danger fw-bold">S/ 80</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card h-100 border-0 shadow-sm card-specialty p-3">
-                    <div class="icon-circle mb-3 mx-auto"><i class="fa-solid fa-heart-pulse fa-xl text-danger"></i></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Cardiología</h5>
-                        <p class="card-text text-muted small">Cuidado especializado del corazón y sistema cardiovascular.</p>
-                        <p class="text-danger fw-bold">S/ 120</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card h-100 border-0 shadow-sm card-specialty p-3">
-                    <div class="icon-circle mb-3 mx-auto"><i class="fa-solid fa-baby fa-xl text-danger"></i></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Pediatría</h5>
-                        <p class="card-text text-muted small">Atención médica dedicada para el bienestar de tus hijos.</p>
-                        <p class="text-danger fw-bold">S/ 90</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card h-100 border-0 shadow-sm card-specialty p-3">
-                    <div class="icon-circle mb-3 mx-auto"><i class="fa-solid fa-venus fa-xl text-danger"></i></div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Ginecologia</h5>
-                        <p class="card-text text-muted small">Salud integral de la mujer en todas las etapas de la vida.</p>
-                        <p class="text-danger fw-bold">S/ 100</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
-<section class="py-5">
-    <div class="container text-center">
-        <h2 class="fw-bold mb-3 text-block">Horarios Disponibles Hoy</h2>
-        <p class="text-muted mb-5">Consulta la disponibilidad de nuestros médicos. Inicia sesión para reservar tu cita.</p>
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold">Nuestras Especialidades</h2>
+            <p class="text-muted mb-5">Contamos con profesionales altamente calificados en diversas áreas médicas</p>
 
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card h-100 border-0 shadow-sm p-3" style="border-radius: 15px;">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="img/dr carlos mendoza.jpg" class="rounded-circle me-3 icon-doctor" alt="Dr. Carlos">
-                        <div class="text-start">
-                            <h6 class="fw-bold mb-0 text-block">Dr. Carlos Mendoza</h6>
-                            <small class="text-muted">Medicina General</small>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card h-100 border-0 shadow-sm card-specialty p-3">
+                        <div class="icon-circle mb-3 mx-auto"><i class="fa-solid fa-stethoscope fa-xl text-danger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Medicina General</h5>
+                            <p class="card-text text-muted small">Atención integral para toda la familia con médicos
+                                experimentados.</p>
+                            <p class="text-danger fw-bold">S/ 80</p>
                         </div>
                     </div>
-                    
-                    <p class="text-start small text-muted mb-2"><i class="bi bi-clock me-1"></i> Horarios disponibles:</p>
-                    
-                    <div class="d-flex flex-wrap gap-2 mb-4">
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">09:00</span>
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">11:00</span>
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">14:00</span>
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">16:00</span>
-                    </div>
-                    
-                    <button class="btn btn-primary w-100 py-2 btn-danger" data-bs-toggle="modal" data-bs-target="#modalRegistro">Reservar con Dr.</button>
                 </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card h-100 border-0 shadow-sm p-3" style="border-radius: 15px;">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="img/dr ana lopez.jpg" class="rounded-circle me-3 icon-doctor" alt="Dra. Ana">
-                        <div class="text-start">
-                            <h6 class="fw-bold mb-0 text-block">Dra. Ana López</h6>
-                            <small class="text-muted">Cardiología</small>
+                <div class="col-md-3">
+                    <div class="card h-100 border-0 shadow-sm card-specialty p-3">
+                        <div class="icon-circle mb-3 mx-auto"><i class="fa-solid fa-heart-pulse fa-xl text-danger"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Cardiología</h5>
+                            <p class="card-text text-muted small">Cuidado especializado del corazón y sistema
+                                cardiovascular.</p>
+                            <p class="text-danger fw-bold">S/ 120</p>
                         </div>
                     </div>
-                    <p class="text-start small text-muted mb-2"><i class="bi bi-clock me-1"></i> Horarios disponibles:</p>
-                    <div class="d-flex flex-wrap gap-2 mb-4">
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">10:00</span>
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">12:00</span>
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">15:00</span>
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">17:00</span>
-                    </div>
-                    <button class="btn btn-primary w-100 py-2 btn-danger"data-bs-toggle="modal" data-bs-target="#modalRegistro">Reservar con Dra.</button>
                 </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card h-100 border-0 shadow-sm p-3" style="border-radius: 15px;">
-                    <div class="d-flex align-items-center mb-3">
-                        <img src="img/dr luis garcia.jpg" class="rounded-circle me-3 icon-doctor" alt="Dr. Luis">
-                        <div class="text-start">
-                            <h6 class="fw-bold mb-0 text-block">Dr. Luis García</h6>
-                            <small class="text-muted">Pediatría</small>
+                <div class="col-md-3">
+                    <div class="card h-100 border-0 shadow-sm card-specialty p-3">
+                        <div class="icon-circle mb-3 mx-auto"><i class="fa-solid fa-baby fa-xl text-danger"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Pediatría</h5>
+                            <p class="card-text text-muted small">Atención médica dedicada para el bienestar de tus
+                                hijos.</p>
+                            <p class="text-danger fw-bold">S/ 90</p>
                         </div>
                     </div>
-                    <p class="text-start small text-muted mb-2"><i class="bi bi-clock me-1"></i> Horarios disponibles:</p>
-                    <div class="d-flex flex-wrap gap-2 mb-4">
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">09:00</span>
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">10:00</span>
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">11:00</span>
-                        <span class="badge border border-danger text-danger bg-light px-3 py-2">15:00</span>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 border-0 shadow-sm card-specialty p-3">
+                        <div class="icon-circle mb-3 mx-auto"><i class="fa-solid fa-venus fa-xl text-danger"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ginecologia</h5>
+                            <p class="card-text text-muted small">Salud integral de la mujer en todas las etapas de la
+                                vida.</p>
+                            <p class="text-danger fw-bold">S/ 100</p>
+                        </div>
                     </div>
-                    <button class="btn btn-primary w-100 py-2 btn-danger" data-bs-toggle="modal" data-bs-target="#modalRegistro">Reservar con Dr.</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-3 text-block">Horarios Disponibles Hoy</h2>
+            <p class="text-muted mb-5">Consulta la disponibilidad de nuestros médicos. Inicia sesión para reservar tu
+                cita.</p>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3" style="border-radius: 15px;">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="img/dr carlos mendoza.jpg" class="rounded-circle me-3 icon-doctor"
+                                alt="Dr. Carlos">
+                            <div class="text-start">
+                                <h6 class="fw-bold mb-0 text-block">Dr. Carlos Mendoza</h6>
+                                <small class="text-muted">Medicina General</small>
+                            </div>
+                        </div>
+
+                        <p class="text-start small text-muted mb-2"><i class="bi bi-clock me-1"></i> Horarios
+                            disponibles:</p>
+
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">09:00</span>
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">11:00</span>
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">14:00</span>
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">16:00</span>
+                        </div>
+
+                        <button class="btn btn-primary w-100 py-2 btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#modalRegistro">Reservar con Dr.</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3" style="border-radius: 15px;">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="img/dr ana lopez.jpg" class="rounded-circle me-3 icon-doctor" alt="Dra. Ana">
+                            <div class="text-start">
+                                <h6 class="fw-bold mb-0 text-block">Dra. Ana López</h6>
+                                <small class="text-muted">Cardiología</small>
+                            </div>
+                        </div>
+                        <p class="text-start small text-muted mb-2"><i class="bi bi-clock me-1"></i> Horarios
+                            disponibles:</p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">10:00</span>
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">12:00</span>
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">15:00</span>
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">17:00</span>
+                        </div>
+                        <button class="btn btn-primary w-100 py-2 btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#modalRegistro">Reservar con Dra.</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3" style="border-radius: 15px;">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="img/dr luis garcia.jpg" class="rounded-circle me-3 icon-doctor" alt="Dr. Luis">
+                            <div class="text-start">
+                                <h6 class="fw-bold mb-0 text-block">Dr. Luis García</h6>
+                                <small class="text-muted">Pediatría</small>
+                            </div>
+                        </div>
+                        <p class="text-start small text-muted mb-2"><i class="bi bi-clock me-1"></i> Horarios
+                            disponibles:</p>
+                        <div class="d-flex flex-wrap gap-2 mb-4">
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">09:00</span>
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">10:00</span>
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">11:00</span>
+                            <span class="badge border border-danger text-danger bg-light px-3 py-2">15:00</span>
+                        </div>
+                        <button class="btn btn-primary w-100 py-2 btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#modalRegistro">Reservar con Dr.</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-white">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-2 text-block">¿Cómo funciona?</h2>
+            <p class="text-muted mb-5">Reserva tu cita en 3 simples pasos</p>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div
+                            class="rounded-circle d-flex align-items-center justify-content-center mb-3 icon-circle-comofunciona">
+                            <i class="bi bi-check2-circle"></i>
+                        </div>
+                        <p class="text-danger fw-bold mb-1">Paso 1</p>
+                        <h5 class="fw-bold text-danger">Elige especialidad</h5>
+                        <p class="text-muted px-4">Selecciona el área médica que necesitas</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div
+                            class="rounded-circle d-flex align-items-center justify-content-center mb-3 icon-circle-comofunciona">
+                            <i class="bi bi-calendar3"></i>
+                        </div>
+                        <p class="text-danger fw-bold mb-1">Paso 2</p>
+                        <h5 class="fw-bold text-danger">Selecciona médico y horario</h5>
+                        <p class="text-muted px-4">Escoge el profesional y fecha que prefieras</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div
+                            class="rounded-circle d-flex align-items-center justify-content-center mb-3 icon-circle-comofunciona">
+                            <i class="bi bi-person-plus"></i>
+                        </div>
+                        <p class="text-danger fw-bold mb-1">Paso 3</p>
+                        <h5 class="fw-bold text-danger">Crea tu cuenta y confirma</h5>
+                        <p class="text-muted px-4">Regístrate y confirma tu reserva en minutos</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-danger btn-lg px-5" data-bs-toggle="modal" data-bs-target="#modalRegistro">Comenzar
+                Ahora</button>
+        </div>
+    </section>
+    <footer class="py-5 bg-light border-top">
+        <div class="container">
+            <div class="row text-center mb-4">
+
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Contacto</h5>
+                    <p class="text-muted mb-1"><i class="bi bi-telephone me-2"></i>(01) 234-5678</p>
+                    <p class="text-muted mb-3"><span>+51 999 999 999</span></p>
+                    <p class="text-muted"><i class="bi bi-envelope me-2"></i>contacto@clinicalimatambo.pe</p>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold mb-3">Ubicación</h5>
+                    <p class="text-muted">
+                        <i class="bi bi-geo-alt me-2"></i>
+                        <span>Av. Limatambo 456<br>San Borja, Lima<br>Perú</span>
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Horario de Atención</h5>
+                    <p class="text-muted">
+                        <i class="bi bi-clock me-2"></i>
+                        <span>
+                            Lunes a Viernes: 8:00 - 20:00<br>
+                            Sábados: 8:00 - 14:00<br>
+                            Domingos: Cerrado
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="text-muted opacity-25">
+
+            <div class="text-center mt-4">
+                <div class="mb-3">
+                    <a href="admin.html" class="text-decoration-none me-3 text-secondary">Acceso Administrador</a>
+                    <span class="text-muted">•</span>
+                    <a href="medico.html" class="text-decoration-none ms-3 text-secondary">Acceso Médico</a>
+                </div>
+
+                <div class="bg-white p-3 rounded mx-auto mb-4">
+                    <p class="fw-bold mb-2">Cuentas de Prueba:</p>
+                    <div class="text-muted">
+                        Paciente: paciente@test.com / 123456<br>
+                        Doctor: doctor@test.com / 123456<br>
+                        Admin: admin@test.com / 123456
+                    </div>
+                </div>
+
+                <p class="text-muted small">© 2026 Clínica Limatambo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="position-fixed bottom-0 end-0 m-4 btn btn-success rounded-circle shadow-lg"
+        style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 30px;">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <div class="modal fade" id="modalRegistro" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
+
+                <div class="modal-header border-0 pt-4 px-4">
+                    <h5 class="modal-title fw-bold">Crea tu cuenta para continuar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body p-4">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold small text-muted">Nombre Completo</label>
+                            <input type="text" class="form-control bg-light border-0 py-2"
+                                placeholder="Ej: María González López" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold small text-muted">DNI</label>
+                            <input type="text" class="form-control bg-light border-0 py-2" placeholder="12345678"
+                                maxlength="8" inputmode="numeric" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold small text-muted">Teléfono</label>
+                            <input type="tel" class="form-control bg-light border-0 py-2" placeholder="+51 999 999 999"
+                                oninput="this.value = this.value.replace(/[^ 0-9+]/g, '')" maxlength="15"
+                                inputmode="tel" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold small text-muted">Correo Electrónico</label>
+                            <input type="email" class="form-control bg-light border-0 py-2" placeholder="tu@email.com"
+                                required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold small text-muted">Fecha de Nacimiento</label>
+                            <input type="date" class="form-control bg-light border-0 py-2" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label fw-bold small text-muted">Contraseña</label>
+                            <input type="password" class="form-control bg-light border-0 py-2"
+                                placeholder="Mínimo 6 caracteres" minlength="6" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-danger w-100 py-3 fw-bold">
+                            Crear cuenta y continuar
+                        </button>
+                    </form>
+                </div>
+
+                <div class="modal-footer border-0 justify-content-center pb-4">
+                    <a href="#" class="text-decoration-none small text-danger">Ya tengo cuenta — Iniciar sesión</a>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<section class="py-5 bg-white">
-    <div class="container text-center">
-        <h2 class="fw-bold mb-2 text-block">¿Cómo funciona?</h2>
-        <p class="text-muted mb-5">Reserva tu cita en 3 simples pasos</p>
 
-        <div class="row g-4 mb-5">
-            <div class="col-md-4">
-                <div class="d-flex flex-column align-items-center">
-                    <div class="rounded-circle d-flex align-items-center justify-content-center mb-3 icon-circle-comofunciona">
-                        <i class="bi bi-check2-circle"></i>
-                    </div>
-                    <p class="text-danger fw-bold mb-1">Paso 1</p>
-                    <h5 class="fw-bold text-danger">Elige especialidad</h5>
-                    <p class="text-muted px-4">Selecciona el área médica que necesitas</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="d-flex flex-column align-items-center">
-                    <div class="rounded-circle d-flex align-items-center justify-content-center mb-3 icon-circle-comofunciona">
-                        <i class="bi bi-calendar3"></i>
-                    </div>
-                    <p class="text-danger fw-bold mb-1">Paso 2</p>
-                    <h5 class="fw-bold text-danger">Selecciona médico y horario</h5>
-                    <p class="text-muted px-4">Escoge el profesional y fecha que prefieras</p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="d-flex flex-column align-items-center">
-                    <div class="rounded-circle d-flex align-items-center justify-content-center mb-3 icon-circle-comofunciona">
-                        <i class="bi bi-person-plus"></i>
-                    </div>
-                    <p class="text-danger fw-bold mb-1" >Paso 3</p>
-                    <h5 class="fw-bold text-danger">Crea tu cuenta y confirma</h5>
-                    <p class="text-muted px-4">Regístrate y confirma tu reserva en minutos</p>
-                </div>
-            </div>
-        </div>
-
-        <button class="btn btn-danger btn-lg px-5" data-bs-toggle="modal" data-bs-target="#modalRegistro">Comenzar Ahora</button>
-    </div>
-</section>
-<footer class="py-5 bg-light border-top">
-    <div class="container">
-        <div class="row text-center mb-4">
-            
-            <div class="col-md-4 mb-4 mb-md-0">
-                <h5 class="fw-bold mb-3">Contacto</h5>
-                <p class="text-muted mb-1"><i class="bi bi-telephone me-2"></i>(01) 234-5678</p>
-                <p class="text-muted mb-3"><span>+51 999 999 999</span></p>
-                <p class="text-muted"><i class="bi bi-envelope me-2"></i>contacto@clinicalimatambo.pe</p>
-            </div>
-
-            <div class="col-md-4 mb-4 mb-md-0">
-                <h5 class="fw-bold mb-3">Ubicación</h5>
-                <p class="text-muted">
-                    <i class="bi bi-geo-alt me-2"></i>
-                    <span>Av. Limatambo 456<br>San Borja, Lima<br>Perú</span>
-                </p>
-            </div>
-
-            <div class="col-md-4">
-                <h5 class="fw-bold mb-3">Horario de Atención</h5>
-                <p class="text-muted">
-                    <i class="bi bi-clock me-2"></i>
-                    <span>
-                        Lunes a Viernes: 8:00 - 20:00<br>
-                        Sábados: 8:00 - 14:00<br>
-                        Domingos: Cerrado
-                    </span>
-                </p>
-            </div>
-        </div>
-
-        <hr class="text-muted opacity-25">
-
-        <div class="text-center mt-4">
-            <div class="mb-3">
-                <a href="#" class="text-decoration-none me-3 text-secondary">Acceso Administrador</a>
-                <span class="text-muted">•</span>
-                <a href="#" class="text-decoration-none ms-3 text-secondary">Acceso Médico</a>
-            </div>
-
-            <div class="bg-white p-3 rounded mx-auto mb-4">
-                <p class="fw-bold mb-2">Cuentas de Prueba:</p>
-                <div class="text-muted">
-                    Paciente: paciente@test.com / 123456<br>
-                    Doctor: doctor@test.com / 123456<br>
-                    Admin: admin@test.com / 123456
-                </div>
-            </div>
-
-            <p class="text-muted small">© 2026 Clínica Limatambo. Todos los derechos reservados.</p>
-        </div>
-    </div>
-</footer>
-
-<a href="#" class="position-fixed bottom-0 end-0 m-4 btn btn-success rounded-circle shadow-lg" style="width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 30px;">
-    <i class="bi bi-whatsapp"></i>
-</a>
-
-<div class="modal fade" id="modalRegistro" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0 shadow-lg" style="border-radius: 20px;">
-            
-            <div class="modal-header border-0 pt-4 px-4">
-                <h5 class="modal-title fw-bold">Crea tu cuenta para continuar</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <div class="modal-body p-4">
-                <form>
-                    <div class="mb-3">
-                        <label class="form-label fw-bold small text-muted">Nombre Completo</label>
-                        <input type="text" class="form-control bg-light border-0 py-2" placeholder="Ej: María González López" required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label fw-bold small text-muted">DNI</label>
-                        <input type="text" class="form-control bg-light border-0 py-2" placeholder="12345678" maxlength="8" inputmode="numeric" required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label fw-bold small text-muted">Teléfono</label>
-                        <input type="tel" class="form-control bg-light border-0 py-2" placeholder="+51 999 999 999" oninput="this.value = this.value.replace(/[^ 0-9+]/g, '')" maxlength="15" inputmode="tel" required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label fw-bold small text-muted">Correo Electrónico</label>
-                        <input type="email" class="form-control bg-light border-0 py-2" placeholder="tu@email.com" required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label fw-bold small text-muted">Fecha de Nacimiento</label>
-                        <input type="date" class="form-control bg-light border-0 py-2" required>
-                    </div>
-
-                    <div class="mb-4">
-                        <label class="form-label fw-bold small text-muted">Contraseña</label>
-                        <input type="password" class="form-control bg-light border-0 py-2" placeholder="Mínimo 6 caracteres" minlength="6" required>
-                    </div>
-
-                    <button type="submit" class="btn btn-danger w-100 py-3 fw-bold">
-                        Crear cuenta y continuar
-                    </button>
-                </form>
-            </div>
-
-            <div class="modal-footer border-0 justify-content-center pb-4">
-                <a href="#" class="text-decoration-none small text-danger">Ya tengo cuenta — Iniciar sesión</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
